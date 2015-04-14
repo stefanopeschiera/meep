@@ -1,0 +1,23 @@
+@import "../settings";
+
+.l-container {
+	
+	max-width: 1140px;
+	margin: 0 auto;
+
+}
+
+.l-header {
+
+	background-color: #FFFFFF;
+
+}
+
+@media (max-width: 1140px) {
+	
+	.l-container {
+  		padding-left: 4%;
+  		padding-right: 4%;
+	}
+
+}

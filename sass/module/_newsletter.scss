@@ -1,0 +1,37 @@
+@import "../settings";
+@import "compass/css3/border-radius";
+
+
+/* /////////////////////////////////////
+
+BOX
+
+///////////////////////////////////// */
+
+
+.newsletter {
+
+	padding: 1.5em;
+	overflow: hidden;
+
+	@include border-radius(4px);
+
+	background-color: #FFFFFF;
+
+}
+
+.newsletter-title {
+
+	margin: 0;
+
+}
+
+.newsletter-text {
+
+}
+
+.newsletter-form > .field-group {
+
+	margin: 0;
+
+}
